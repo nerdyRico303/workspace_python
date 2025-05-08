@@ -14,12 +14,12 @@ This Python program generates a consolidated web table by integrating data from 
 
 **How to Run:** Execute the `app.py` file located within the `web_basicSortingProgram/web` directory.
 
-**Skills Acquired:**
+**Skills Learned:**
 
 -   Flask
 -   Pandas
--   PostgreSQL (data from CSV files is loaded into a PostgreSQL database before display)
+-   PostgreSQL (data from CSV files is fetched into a PostgreSQL database before display)
 
 ### 2. web_translator
 
-[Further details about the web\_translator project will be added here.]
+[To be updated]
