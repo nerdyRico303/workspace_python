@@ -12,7 +12,7 @@ This Python program generates a consolidated web table by integrating data from 
 -   Start Date
 -   End Date
 
-**How to Run:** Execute the `_app.py` file located within the `web_basicSortingProgram/web` directory.
+**How to Run:** Execute the `app.py` file located within the `web_basicSortingProgram/web` directory.
 
 **Skills Acquired:**
 
