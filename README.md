@@ -1,15 +1,25 @@
 # workspace_python
-<br />
-This workspace is intended as the main repository of all my Python based Projects
-<br /><br />
-**- Content Brief -**
-<br /><br />
-**1. web_basicSortingProgram**
-- This python program display a unified web table from 3 separate csv files. User may interact with the table by sorting according to company abbreviation, start date, and end date
-- how to run: execute _app.py_ within the _web_ folder <br />
 
-Skills that I learned after completing this project
-  - Flask, Pandas
-  - PostgresSQL; the csv files are routed to a postgres database before being diplayed <br /><br />
+This repository serves as the central hub for all my Python-based projects.
 
-**2. web_translator**
+## Content Brief
+
+### 1. web_basicSortingProgram
+
+This Python program generates a consolidated web table by integrating data from three distinct CSV files. Users can dynamically sort the table based on the following criteria:
+
+-   Company Abbreviation
+-   Start Date
+-   End Date
+
+**How to Run:** Execute the `_app.py` file located within the `web_basicSortingProgram/web` directory.
+
+**Skills Acquired:**
+
+-   Flask
+-   Pandas
+-   PostgreSQL (data from CSV files is loaded into a PostgreSQL database before display)
+
+### 2. web_translator
+
+[Further details about the web\_translator project will be added here.]
