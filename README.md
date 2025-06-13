@@ -18,7 +18,8 @@ This Python program generates a consolidated web table by integrating data from 
 
 -   Flask
 -   Pandas
--   PostgreSQL (data from CSV files is fetched into a PostgreSQL database before display)
+-   PostgreSQL (data from CSV files is selectively fetched into a PostgreSQL database before display)
+-   Html (Web Paging: Dividing a large web content into smaller sections)
 
 ### 2. web_translator
 
