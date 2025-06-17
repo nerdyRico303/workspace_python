@@ -27,6 +27,7 @@ A simple Chinese to English (and vice versa) web translator program that able to
 
 **Skills Learned:**
 - API implementation
-- 
+- Python dictionary
+- Flask
 - Html
 
