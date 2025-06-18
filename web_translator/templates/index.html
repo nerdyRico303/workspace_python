@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络用语智能翻译</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>网络用语智能翻译</h1>
+    <form method="POST">
+        <textarea name="input_text" rows="5" cols="40" placeholder="请输入要翻译的文本">{{ input_text }}</textarea><br>
+        <button type="submit">翻译</button>
+    </form>
+    {% if translated_text %}
+        <h2>翻译结果：</h2>
+        <p>{{ translated_text }}</p >
+    {% endif %}
+</body>
+</html>
