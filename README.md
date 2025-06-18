@@ -31,3 +31,15 @@ A simple Chinese to English (and vice versa) web translator program that able to
 - Flask
 - Html
 
+### 3. JD Consumer Behaviour Analysis
+A through processing and visualization of the Jingdong (京东) 2018 spring sales data aimed at discovering buying patterns, factors, and giving possible advices to increase orders.  
+
+There are 2 stages in processing the dataset:
+- Data cleaning and sorting (13项目 - 京东filtering&sorting.ipynb)
+- Data visualization and analysis (13项目 - 京东analysis.ipynb)
+
+**Note:** This is the final project for XJTLU 2023 summer Python Development Project.
+
+**Skills Learned:**
+- Pyecharts (Analysis and Visualization)
+- Numpy & Panda (Clean-up and Data Reformating for Visualization)
