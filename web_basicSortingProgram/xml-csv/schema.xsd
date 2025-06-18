@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define complex type for 'info' -->
+  <xs:element name="companies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="company" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="symbol" type="xs:string"/>
+              <xs:element name="fullname" type="xs:string"/>
+              <xs:element name="industry" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Define complex type for 'price' -->
+  <xs:element name="price">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tick" maxOccurs = "unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" type="xs:string"/>
+              <xs:element name="open" type="xs:double"/>
+              <xs:element name="high" type="xs:double"/>
+              <xs:element name="low" type="xs:double"/>
+              <xs:element name="close" type="xs:double"/>
+              <xs:element name="volume" type="xs:integer"/>
+              <xs:element name="symbol" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Define complex type for 'time' -->
+  <xs:element name="time">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" type="xs:string" />
+              <xs:element name="weekday" type="xs:integer" />
+              <xs:element name="weeknum" type="xs:integer" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

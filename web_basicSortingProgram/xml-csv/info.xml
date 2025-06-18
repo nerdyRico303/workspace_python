@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mistake: contain invalid characters '&' -->
+<companies>
+    <company>  
+        <symbol>AAPL</symbol>  
+        <fullname>Apple Inc.</fullname>  
+        <industry>Technology</industry>  
+    </company>  
+    <company>  
+        <symbol>AMGN</symbol>
+        <fullname>Amgen Inc.</fullname>  
+        <industry>Biotechnology</industry>  
+    </company>  
+    <company>  
+        <symbol>AXP</symbol>  
+        <fullname>American Express Company</fullname>  
+        <industry>Finance</industry>  
+    </company>  
+    <company>  
+        <symbol>BA</symbol>  
+        <fullname>The Boeing Company</fullname>  
+        <industry>Aerospace &amp; Defense</industry>
+    </company>  
+    <company>  
+        <symbol>CAT</symbol>  
+        <fullname>Caterpillar Inc.</fullname>  
+        <industry>Industrial Machinery</industry>  
+    </company>  
+    <company>  
+        <symbol>CRM</symbol>  
+        <fullname>Salesforce.com, Inc.</fullname>  
+        <industry>Software &amp; Services</industry>  
+    </company>  
+    <company>  
+        <symbol>CSCO</symbol>  
+        <fullname>Cisco Systems, Inc.</fullname>  
+        <industry>Technology</industry>  
+    </company>  
+    <company>  
+        <symbol>CVX</symbol>  
+        <fullname>Chevron Corporation</fullname>  
+        <industry>Energy</industry>  
+    </company>  
+    <company>  
+        <symbol>DIS</symbol>  
+        <fullname>The Walt Disney Company</fullname>  
+        <industry>Entertainment</industry>  
+    </company>  
+    <company>  
+        <symbol>GS</symbol>  
+        <fullname>The Goldman Sachs Group, Inc.</fullname>  
+        <industry>Finance</industry>  
+    </company>  
+    <company>  
+        <symbol>HD</symbol>  
+        <fullname>The Home Depot, Inc.</fullname>  
+        <industry>Retail</industry>  
+    </company>  
+    <company>  
+        <symbol>HON</symbol>  
+        <fullname>Honeywell International Inc.</fullname>  
+        <industry>Industrial Conglomerate</industry>  
+    </company>  
+    <company>  
+        <symbol>IBM</symbol>  
+        <fullname>International Business Machines Corporation</fullname>  
+        <industry>Technology</industry>  
+    </company>  
+    <company>  
+        <symbol>INTC</symbol>  
+        <fullname>Intel Corporation</fullname>  
+        <industry>Semiconductors</industry>  
+    </company>  
+    <company>  
+        <symbol>JNJ</symbol>  
+        <fullname>Johnson &amp; Johnson</fullname>  
+        <industry>Healthcare</industry>  
+    </company>  
+    <company>  
+        <symbol>JPM</symbol>  
+        <fullname>JPMorgan Chase &amp; Co.</fullname>  
+        <industry>Finance</industry>  
+    </company>  
+    <company>  
+        <symbol>KO</symbol>  
+        <fullname>The Coca-Cola Company</fullname>  
+        <industry>Beverages</industry>  
+    </company>  
+    <company>  
+        <symbol>MCD</symbol>  
+        <fullname>McDonald's Corporation</fullname>  
+        <industry>Restaurants</industry>  
+    </company>  
+    <company>  
+        <symbol>MMM</symbol>  
+        <fullname>3M Company</fullname>  
+        <industry>Conglomerate</industry>  
+    </company>  
+    <company>  
+        <symbol>MRK</symbol>  
+        <fullname>Merck &amp; Co., Inc.</fullname>  
+        <industry>Healthcare</industry>  
+    </company>  
+    <company>  
+        <symbol>MSFT</symbol>  
+        <fullname>Microsoft Corporation</fullname>  
+        <industry>Technology</industry>  
+    </company>  
+    <company>  
+        <symbol>NKE</symbol>  
+        <fullname>NIKE, Inc.</fullname>  
+        <industry>Retail (Apparel and Footwear)</industry>  
+    </company>  
+    <company>  
+        <symbol>PG</symbol>  
+        <fullname>Procter &amp; Gamble Company</fullname>  
+        <industry>Consumer Goods</industry>  
+    </company>  
+    <company>  
+        <symbol>TRV</symbol>  
+        <fullname>The Travelers Companies, Inc.</fullname>  
+        <industry>Insurance</industry>  
+    </company>  
+    <company>  
+        <symbol>UNH</symbol>  
+        <fullname>UnitedHealth Group Inc.</fullname>  
+        <industry>Healthcare</industry>  
+    </company>  
+    <company>  
+        <symbol>V</symbol>  
+        <fullname>Visa Inc.</fullname>  
+        <industry>Finance</industry>  
+    </company>  
+    <company>  
+        <symbol>VZ</symbol>  
+        <fullname>Verizon Communications Inc.</fullname>  
+        <industry>Telecommunications</industry>  
+    </company>  
+    <company>  
+        <symbol>WBA</symbol>  
+        <fullname>Walgreens Boots Alliance, Inc.</fullname>  
+        <industry>Retail (Pharmacy)</industry>  
+    </company>  
+    <company>  
+        <symbol>WMT</symbol>  
+        <fullname>Walmart Inc.</fullname>  
+        <industry>Retail</industry>  
+    </company>  
+</companies>

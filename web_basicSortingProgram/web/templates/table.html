@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">DTS207 CW2</h1>
+
+        <!-- Filter Form -->
+        <form method="get" action="/" class="mb-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="symbol" class="form-label">Symbol:</label>
+                    <input type="text" id="symbol" name="symbol" class="form-control" placeholder="e.g., AAPL" value="{{ request.args.get('symbol', '') }}">
+                </div>
+                <div class="col-md-3">
+                    <label for="start_date" class="form-label">Start Date:</label>
+                    <input type="date" id="start_date" name="start_date" class="form-control" value="{{ request.args.get('start_date', '') }}">
+                </div>
+                <div class="col-md-3">
+                    <label for="end_date" class="form-label">End Date:</label>
+                    <input type="date" id="end_date" name="end_date" class="form-control" value="{{ request.args.get('end_date', '') }}">
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary w-100">Filter</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Table -->
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Full Name</th>
+                    <th>Industry</th>
+                    <th>Date</th>
+                    <th>Week Number</th>
+                    <th>Weekday</th>
+                    <th>Close Price</th>
+                    <th>Volume</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    <td>{{ row.symbol }}</td>
+                    <td>{{ row.fullname }}</td>
+                    <td>{{ row.industry }}</td>
+                    <td>{{ row.date }}</td>
+                    <td>{{ row.weeknum }}</td>
+                    <td>{{ row.weekday }}</td>
+                    <td>{{ row.close }}</td>
+                    <td>{{ row.volume }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="8" class="text-center">No data available</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Pagination Logic -->
+        {% if total_pages > 1 %}
+        <nav aria-label="Pagination">
+            <ul class="pagination justify-content-center">
+                {% if page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="/{{ page - 1 }}?symbol={{ request.args.get('symbol', '') }}&start_date={{ request.args.get('start_date', '') }}&end_date={{ request.args.get('end_date', '') }}">Previous</a>
+                </li>
+                {% endif %}
+                <li class="page-item disabled">
+                    <a class="page-link">Page {{ page }} of {{ total_pages }}</a>
+                </li>
+                {% if page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="/{{ page + 1 }}?symbol={{ request.args.get('symbol', '') }}&start_date={{ request.args.get('start_date', '') }}&end_date={{ request.args.get('end_date', '') }}">Next</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
