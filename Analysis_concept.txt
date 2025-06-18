@@ -1,0 +1,20 @@
+Analaysis that can be taken into account;
+	1. Time
+		- Sales fluctuation (feb1,2018 - Apr15,2018)
+		- When order are placed most and least?
+		- Volume purchase: Peaked purchase period and fatigue period
+	2. User
+		- Determine current popular trend based on purchases
+		- Which gender uses JD the most?
+		- JD User ranking based on ages
+		- Membership effects on purchase
+			 - Gender|Membership relationships
+		- [maybe] Determine Socio/Economic discrepancies based on purchases in different areas (city level)
+		- [maybe] Determine local politic and culture situation based on purchases
+	3. Product
+		- category of items purchased the most/the least
+			- factor: Gender, age, events, socio-economic, political/cultural
+		- competition between old products and New products
+	4. Store
+		- Knowing user behaviour in regards to store popularity
+		- Does Brand score affect people interest?
