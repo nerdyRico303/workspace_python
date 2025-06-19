@@ -43,3 +43,12 @@ There are 2 stages in processing the dataset:
 **Skills Learned:**
 - Pyecharts (Analysis and Visualization)
 - Numpy & Panda (Clean-up and Data Reformating for Visualization)
+
+### 4. PCA on Machine Learning Performance
+This project aims to exlore the impacts of pre-processing COVID-19 dataset using PCA (Principal Component Analysis) towards learning accuracy of 3 different machine learning models (k-Nearest Neighbors, Naive Bayes, Multi Layer Perceptron).
+
+The project constituted that PCA boost all 3 machine learning algorithms performance from 2% up to 20%.
+
+**Skills Learned**
+- Supervised Machine Learning
+- Data pre-processing (PCA)
